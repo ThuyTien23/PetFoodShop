@@ -1,0 +1,120 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 20, 2023, 7:21:22 PM
+    Author     : min
+*/
+    body {
+        font-family: Arial, sans-serif;
+        background-color: antiquewhite;
+        margin: 0;
+        padding: 0;   
+        background-image: url('images/backgrounglogin.jpg');
+    }
+
+    h1 {
+        text-align: left;
+        margin-top: 20px;
+        color: black;
+        font-size: 20px;
+        margin-left: 40px;
+        background-color: antiquewhite;
+    }
+
+    h3 {
+        text-align: left;
+        color: red;
+    }
+    
+    a {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        color: #007bff;
+        text-decoration: none;
+    }
+    
+    a.out { 
+        margin-right: 40px;
+        text-align: right;
+        margin-top: -40px;
+        text-decoration: underline;
+    }
+    
+    a.test {
+        display: inline-block;
+        margin-top: 10px;
+        text-decoration: none;
+        color: white;
+        background-color: gray;
+        padding: 8px 16px;
+        border-radius: 5px;
+    }
+
+    a.test:hover {
+        background-color: #0056b3;
+    }
+    
+    div.add {
+        display: flex;
+        justify-content: right;
+        margin-top: 20px;
+        margin-right: 40px;
+        margin-right: 20em;
+        margin-bottom: -53px;
+    }
+    form {
+        display: flex;
+        justify-content: right;
+        margin-top: 20px;
+        margin-right: 40px;
+        margin-bottom: -50px;
+    }
+
+    input[type="text"] {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    button[type="submit"] {
+        background-color: gray;
+        color: #fff;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 5px;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 80px;
+    }
+
+    th, td {
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+
+    th {
+        background-color: goldenrod;
+        color: #fff;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tr:hover {
+        background-color: #ddd;
+    }
+    
